@@ -19,7 +19,7 @@ export default function Private( {children}){
                     localStorage.setItem("@detailUser", JSON.stringify(userData) )
 
                     setLoading(false);
-                    setSigned(false);
+                    setSigned(true);
 
                 } else{
                     setLoading(false);
